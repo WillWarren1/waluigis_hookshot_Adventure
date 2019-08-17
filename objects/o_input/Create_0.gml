@@ -1,0 +1,10 @@
+jump = keyboard_check_pressed(ord("W"));
+left = keyboard_check(ord("A"));
+right = keyboard_check(ord("D")) 
+jump_held = keyboard_check(ord("W"));
+roll = keyboard_check_pressed(vk_space);
+attack = keyboard_check(ord("V"));
+hook = mouse_check_button_pressed(mb_left);
+hook_release = mouse_check_button_released(mb_left);
+glide = keyboard_check(ord("E"));
+glide_release = keyboard_check_released(ord("E"));
